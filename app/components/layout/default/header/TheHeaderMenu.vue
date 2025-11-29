@@ -55,12 +55,11 @@ const components: { title: string, href: string, description: string }[] = [
 </script>
 
 <template>
-	<NavigationMenu class="w-full max-w-full">
-		<NavigationMenuList class="w-full max-w-full justify-between gap-5">
+	<NavigationMenu class="">
+		<NavigationMenuList class="justify-between gap-5">
 			<NavigationMenuItem
 				v-for="item in items"
 				:key="item.title"
-				class="w-full"
 			>
 				<NavigationMenuTrigger>
 					<div class="text-2xl">

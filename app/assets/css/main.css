@@ -21,4 +21,12 @@
     [role="button"]:not(:disabled) {
         cursor: pointer;
     }
+
+    .scroll-fixed {
+        @apply !pr-[var(--scrollbar-width)]
+    }
+
+    .hover-1 {
+
+    }
 }

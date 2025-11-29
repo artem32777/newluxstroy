@@ -1,0 +1,178 @@
+{
+   "$schema": "https://raw.githubusercontent.com/JetBrains/web-types/main/schema/web-types.json",
+   "name": "v-gsap-nuxt",
+   "description": "GSAP directives for Nuxt.js",
+   "framework": "vue",
+   "js-types-syntax": "typescript",
+   "description-markup": "markdown",
+   "contributions": {
+      "html": {
+         "vue-directives": [
+            {
+               "name": "gsap",
+               "description": "GSAP animation directive",
+               "doc-url": "https://npmjs.com/package/v-gsap-nuxt",
+               "attribute-value": {
+                  "type": "object",
+                  "required": false
+               },
+               "modifiers": [
+                  {
+                     "name": "from",
+                     "description": "Animate from the specified values"
+                  },
+                  {
+                     "name": "to",
+                     "description": "Animate to the specified values"
+                  },
+                  {
+                     "name": "fromTo",
+                     "description": "Animate from and to specified values"
+                  },
+                  {
+                     "name": "call",
+                     "description": "Call a function with specified parameters"
+                  },
+                  {
+                     "name": "whenVisible",
+                     "description": "Trigger animation when element becomes visible"
+                  },
+                  {
+                     "name": "whenVisible-once",
+                     "description": "Trigger animation once when element becomes visible"
+                  },
+                  {
+                     "name": "whenVisible-once-reversible",
+                     "description": "Trigger animation once and make it reversible"
+                  },
+                  {
+                     "name": "parallax",
+                     "description": "Enable parallax scrolling effect"
+                  },
+                  {
+                     "name": "slower-1",
+                     "description": "Scroll slower by 10%"
+                  },
+                  {
+                     "name": "slower-2",
+                     "description": "Scroll slower by 20%"
+                  },
+                  {
+                     "name": "slower-3",
+                     "description": "Scroll slower by 30%"
+                  },
+                  {
+                     "name": "slower-4",
+                     "description": "Scroll slower by 40%"
+                  },
+                  {
+                     "name": "slower-5",
+                     "description": "Scroll slower by 50%"
+                  },
+                  {
+                     "name": "faster-1",
+                     "description": "Scroll faster by 10%"
+                  },
+                  {
+                     "name": "faster-2",
+                     "description": "Scroll faster by 20%"
+                  },
+                  {
+                     "name": "faster-3",
+                     "description": "Scroll faster by 30%"
+                  },
+                  {
+                     "name": "faster-4",
+                     "description": "Scroll faster by 40%"
+                  },
+                  {
+                     "name": "faster-5",
+                     "description": "Scroll faster by 50%"
+                  },
+                  {
+                     "name": "onState",
+                     "description": "Animation based on parent data attribute state"
+                  },
+                  {
+                     "name": "whileHover",
+                     "description": "Animation on hover state"
+                  },
+                  {
+                     "name": "whileHover-noReverse",
+                     "description": "Hover animation without reverse on leave"
+                  },
+                  {
+                     "name": "draggable",
+                     "description": "Make element draggable"
+                  },
+                  {
+                     "name": "draggable-x",
+                     "description": "Make element draggable horizontally only"
+                  },
+                  {
+                     "name": "draggable-y",
+                     "description": "Make element draggable vertically only"
+                  },
+                  {
+                     "name": "stagger",
+                     "description": "Stagger animation for child elements"
+                  },
+                  {
+                     "name": "animateText",
+                     "description": "Animate text character by character"
+                  },
+                  {
+                     "name": "magnetic",
+                     "description": "Make element magnetic to cursor"
+                  },
+                  {
+                     "name": "entrance",
+                     "description": "Use entrance animation preset"
+                  },
+                  {
+                     "name": "slide-left",
+                     "description": "Slide from left animation preset"
+                  },
+                  {
+                     "name": "slide-right",
+                     "description": "Slide from right animation preset"
+                  },
+                  {
+                     "name": "slide-up",
+                     "description": "Slide from bottom animation preset"
+                  },
+                  {
+                     "name": "slide-down",
+                     "description": "Slide from top animation preset"
+                  },
+                  {
+                     "name": "fade",
+                     "description": "Fade animation preset"
+                  },
+                  {
+                     "name": "scale",
+                     "description": "Scale animation preset"
+                  },
+                  {
+                     "name": "blur",
+                     "description": "Blur animation preset"
+                  },
+                  {
+                     "name": "flip-x",
+                     "description": "Flip horizontally animation preset"
+                  },
+                  {
+                     "name": "flip-y",
+                     "description": "Flip vertically animation preset"
+                  }
+               ],
+               "value": {
+                  "kind": "expression",
+                  "type": "object",
+                  "required": false
+               }
+            }
+         ]
+      }
+   }
+}

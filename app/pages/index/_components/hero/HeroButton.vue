@@ -22,7 +22,7 @@ const isActive = ref(isOpen)
 
 <style scoped lang="scss">
 .button {
-  border: 2px solid var(--primary);
+  border: 3px solid var(--primary);
   color: var(--primary);
   margin: 0;
   padding: 1.25em 3em;
@@ -34,7 +34,7 @@ const isActive = ref(isOpen)
   &::before {
     content: " ";
     width: 1.5625rem;
-    height: 2px;
+    height: 3px;
     background: var(--primary);;
     top: 50%;
     left: 1.5em;

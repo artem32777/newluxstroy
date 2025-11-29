@@ -5,7 +5,9 @@ import TheHeader from '~/components/layout/default/header/TheHeader.vue'
 <template>
 	<div>
 		<TheHeader />
-		<slot />
+		<div>
+			<slot />
+		</div>
 	</div>
 </template>
 

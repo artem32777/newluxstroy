@@ -1,26 +1,18 @@
 <script setup lang="ts">
-import { useElementBounding } from '@vueuse/core'
 import HeroDrawer from '~/pages/index/_components/hero/HeroDrawer.vue'
 </script>
 
 `
 <template>
-	<section
-		ref="target"
-		class="bg-background h-[22vw] w-[102%] overflow-hidden"
-	>
-		<div
-			class="flex items-center justify-between px-20 pt-[10vw] transition-transform duration-200 ease-in "
-		>
+	<section class="bg-background h-[22vw] w-[102%] overflow-hidden">
+		<div class="flex justify-between px-20 pt-[10vw]">
 			<div
-				v-gsap.parallax.slower-4
-				class="title absolute bottom-0"
+				v-gsap.whenVisible.animateText.slow
+				class="title"
 			>
 				Строительная <br> компания
 			</div>
-			<HeroDrawer>
-				/>
-			</herodrawer>
+			<HeroDrawer />
 		</div>
 	</section>
 </template>
